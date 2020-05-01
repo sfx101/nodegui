@@ -53,12 +53,6 @@ for JavaScript development.
 - CMake 3.1 and up (Installation instructions can be found here: https://cmake.org/install/)
 - Currently supported Node.Js versions are 12.x and up.
 
-We strongly suggest you use some kind of version manager for Node.Js. This would allow you to switch to any version of nodejs quite easily.
-
-We strongly recommend Powershell as preferred terminal in Windows.
-
-Confirm that both `node` and `npm` are available by running:
-
 ```powershell
 # This command should print the version of Node.js
 node -v
@@ -80,7 +74,7 @@ for JavaScript development.
 - Make, GCC v7
 - CMake 3.1 and up (Installation instructions can be found here: https://cmake.org/install/)
 - Currently supported Node.Js versions are 12.x and up.
-- On Ubuntu and Ubuntu-based distros it is advisable to run `sudo apt-get update`, followed by `sudo apt-get install pkg-config build-essential`
+- On Ubuntu and Ubuntu-based distros it is advisable to run `sudo apt-get update`, followed by `sudo apt-get install pkg-config build-essential mesa-common-dev libglu1-mesa-dev`
 
 We strongly suggest you use some kind of version manager for Node.Js. This would allow you to switch to any version of nodejs quite easily. We recommend `nvm`: https://github.com/nvm-sh/nvm
 
